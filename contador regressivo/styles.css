@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'WDXL Lubrifont TC', sans-serif;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(var(--cor-rosa), var(--cor-preto));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--cor-branco);
+}
+
+:root {
+  --cor-branco: #f8f8ff;
+  --cor-rosa: #ae0464;
+  --cor-azul: #1d52a8;
+  --cor-roxo: #993399;
+  --cor-verde: #1fe516;
+  --cor-preto: #191919;
+}
+
+.contador {
+  display: flex;
+  gap: 5em;
+}
+
+.contador div p {
+  font-size: 100px;
+}
+
+.contador div span {
+  font-size: 40px;
+}
