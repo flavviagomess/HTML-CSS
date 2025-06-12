@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #49225b, #a56abd, #6e3482);
+  margin: 0;
+  height: 100vh;
+}
+
+.card {
+  background: #fff solid;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
+  text-align: center;
+  position: relative;
+  width: 30rem;
+  animation: fadeIn 2s ease forwards;
+}
+
+.heart {
+  font-size: 5rem;
+  color: #e7dbef;
+  animation: beat 1s infinite;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #f5ebfa;
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+/* coração caindo 
+
+.falling-heart {
+  position: absolute;
+  top: -5rem;
+  left: 50%;
+  font-size: 2.4rem;
+  color: #e25555;
+  animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-5rem) translateY(50rem) rotate(360deg);
+  }
+} */
