@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  margin: 44px 0 135px 76px;
+}
+
+.link-header,
+.botao-header,
+p {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h1,
+h1 {
+  color: #515151;
+}
+
+/* acima global */
+
+.logo-wecare {
+  display: inline-block;
+  width: 568px;
+  height: 500px;
+  margin-left: 125px;
+}
+
+.botao-header {
+  background: #665ae1;
+  border-radius: 20.5px;
+  width: 130px;
+  height: 41px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+}
+
+.link-header {
+  padding: 15px;
+  font-weight: 600;
+  color: #989d9c;
+  cursor: pointer;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+}
+
+p {
+  color: #848484;
+  font-weight: 400;
+  width: 515px;
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
+
+.botao-main {
+  background: #adff00;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  width: 239px;
+  height: 64px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000;
+}
