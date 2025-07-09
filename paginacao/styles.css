@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #404040;
+}
+
+/* Paginação */
+
+.paginacao {
+  padding: 6.1rem;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+
+  .paginacao-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    width: 3.5rem;
+    height: 3.5rem;
+
+    &.pagina-ativa,
+    &:hover {
+      font-weight: 700;
+      background-color: #f60;
+      border-radius: 50%;
+      color: #ffff;
+    }
+  }
+
+  .paginacao-botao {
+    font-size: 1.93rem;
+    font-weight: 700;
+    background-color: #f60;
+    border-radius: 50%;
+    color: #ffff;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      color: #f60;
+      background-color: #ffff;
+      border: 1px solid #f60;
+    }
+  }
+}
